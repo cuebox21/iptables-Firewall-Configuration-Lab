@@ -14,24 +14,24 @@ NETinVM desktop running inside VMware Workstation Pro <br/>
 <img src="https://imgur.com/7UAYtIN.png" height="80%" width="80%"/>
 <br />
 <br />
-Registry Explorer: SAM hive showing all user accounts including 'informant'  <br/>
-<img src="https://imgur.com/eY71cHg.png" height="80%" width="80%">
+NETinVM run script showing machine configuration  <br/>
+<img src="https://imgur.com/UoatNpR.png" height="80%" width="80%">
 <br />
 <br />
-DB Browser for SQLite: Chrome History query showing browsing activity including data leakage searches on March 23, 2015 <br/>
-<img src="https://imgur.com/O6jiW8v.png" height="80%" width="80%">
+Initial iptables filter table listing showing INPUT and FORWARD at DROP policy <br/>
+<img src="https://imgur.com/KnSThCe.png" height="80%" width="80%">
 <br />
 <br />
-Registry Explorer: NTUSER.DAT RecentDocs showing secret_project files and resignation letter accessed by the suspect:  <br/>
-<img src="https://imgur.com/RAqWqmM.png" height="80%" width="80%">
+Chain OUTPUT confirmed policy DROP after execution  <br/>
+<img src="https://imgur.com/srBRTa2.png" height="80%" width="80%">
  <br />
 <br />
- FTK Imager: Google Drive user_default folder showing snapshot.db and sync_config.db wiped (null byte contents confirmed in hex panel)  <br/>
-<img src="https://imgur.com/Y4LmOt8.png" height="80%" width="80%">
+Stateful rules applied silently across all three chains  <br/>
+<img src="https://imgur.com/cWTgc1y.png" height="80%" width="80%">
 <br />
 <br />
-FTK Imager: FTK Imager: RM#1 exFAT partition showing Secret Project Data folder with hex panel confirming 'Authorized USB' volume label string  <br/>
-<img src="https://imgur.com/S2Bo1kz.png" height="80%" width="80%">
+Final complete rule set across filter and nat tables after all rules applied  <br/>
+<img src="https://imgur.com/GsJuHug.png" height="80%" width="80%">
 <br />
 <br />
 <!--
